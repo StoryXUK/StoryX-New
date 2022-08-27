@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #101010;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 h1 {
 	font-size: 65px;
@@ -86,9 +86,9 @@ h6 {
 }
 p {
 	color: #989898;
-	font-size: 16px;
+	font-size: 13px;
 	line-height: 28px;
-	font-family: 'Century Gothic';
+	font-family: 'montserratlight';
 }
 a {
 	-webkit-transition: all 0.4s ease-in-out;
@@ -98,7 +98,7 @@ a {
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
 	font-weight: normal;
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 img {
 	-webkit-transition: 0.4s ease-in-out;
@@ -119,16 +119,16 @@ a {
 	color: #757575;
 }
 .font-montserrat {
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .font-hair-line {
-	font-family: 'Century Gothic';
+	font-family: 'montserrathairline';
 }
 .font-light {
-	font-family: 'Century Gothic';
+	font-family: 'montserratlight';
 }
 .font-regular {
-	font-family: 'Century Gothic';
+	font-family: 'montserratregular';
 }
 .font-extra-bold {
 	font-family: 'montserratbold';
@@ -337,7 +337,7 @@ header .ownmenu ul.dropdown li a {
 	text-transform: uppercase;
 	font-size: 16px;
 	border: none;
-	padding: 20px 20px;
+	padding: 0px 20px;
 	line-height: 38px;
 	background: none;
 	color: #000;
@@ -1591,30 +1591,28 @@ header.main-header nav .ownmenu li {
       Footer Up
 ========================================================*/
 .footer-up {
-	background: #3c3c3c;
 }
 .footer-up .col-sm-6 {
 	text-align: center;
-	padding: 50px;
+	padding: 0px;
 }
 .footer-up .work {
-
-	padding: 20px;
-	
+	padding: 50px;
+	padding-top: 60px;
 	padding-bottom: 10px;
 	min-height: 200px;
 	background: #3c3c3c;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 .footer-up .contact {
-	padding: 25px;
-	padding-top: 20px;
+	padding: 50px;
+	padding-top: 80px;
 	padding-bottom: 10px;
 	min-height: 200px;
-	background: #3c3c3c;
+	background: #343434;
 }
 .footer-up i {
-	font-size: 18px;
+	font-size: 40px;
 	color: #fff;
 }
 .footer-up p {
@@ -1622,7 +1620,7 @@ header.main-header nav .ownmenu li {
 	letter-spacing: 2.5px;
 }
 .footer-up a {
-	font-size: 18px;
+	font-size: 28px;
 }
 .footer-up .social_icons {
 	margin-bottom: 20px;
@@ -1642,19 +1640,14 @@ header.main-header nav .ownmenu li {
       FOOTER
 ========================================================*/
 footer {
-	background: #3c3c3c;;
+	background: #2e2e2e;
 	padding-top: 120px;
 	text-align: center;
-	font-family: 'century gothic', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 footer img {
-	margin: 50px;
+	margin-bottom: 20px;
 }
-
-footer .logo {
-	margin: 50px;
-}
-
 footer p {
 	color: #cecece;
 	font-size: 11px;
@@ -1673,7 +1666,7 @@ footer .social_icons li a {
 .footer-rights {
 	margin-top: 50px;
 	padding: 15px 0;
-	background: #3c3c3c;
+	background: #252525;
 }
 /*=======================================================
       PAGINATION
