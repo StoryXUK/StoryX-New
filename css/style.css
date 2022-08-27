@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #101010;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Century Gothic', sans-serif;
 }
 h1 {
 	font-size: 65px;
@@ -86,9 +86,9 @@ h6 {
 }
 p {
 	color: #989898;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 28px;
-	font-family: 'montserratlight';
+	font-family: 'Century Gothic';
 }
 a {
 	-webkit-transition: all 0.4s ease-in-out;
@@ -98,7 +98,7 @@ a {
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
 	font-weight: normal;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Century Gothic', sans-serif;
 }
 img {
 	-webkit-transition: 0.4s ease-in-out;
@@ -119,16 +119,16 @@ a {
 	color: #757575;
 }
 .font-montserrat {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Century Gothic', sans-serif;
 }
 .font-hair-line {
-	font-family: 'montserrathairline';
+	font-family: 'Century Gothic';
 }
 .font-light {
-	font-family: 'montserratlight';
+	font-family: 'Century Gothic';
 }
 .font-regular {
-	font-family: 'montserratregular';
+	font-family: 'Century Gothic';
 }
 .font-extra-bold {
 	font-family: 'montserratbold';
@@ -1591,28 +1591,30 @@ header.main-header nav .ownmenu li {
       Footer Up
 ========================================================*/
 .footer-up {
+	background: #3c3c3c;
 }
 .footer-up .col-sm-6 {
 	text-align: center;
-	padding: 0px;
+	padding: 50px;
 }
 .footer-up .work {
-	padding: 50px;
-	padding-top: 60px;
+
+	padding: 20px;
+	
 	padding-bottom: 10px;
 	min-height: 200px;
 	background: #3c3c3c;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 .footer-up .contact {
-	padding: 50px;
-	padding-top: 80px;
+	padding: 25px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	min-height: 200px;
-	background: #343434;
+	background: #3c3c3c;
 }
 .footer-up i {
-	font-size: 40px;
+	font-size: 18px;
 	color: #fff;
 }
 .footer-up p {
@@ -1620,7 +1622,7 @@ header.main-header nav .ownmenu li {
 	letter-spacing: 2.5px;
 }
 .footer-up a {
-	font-size: 28px;
+	font-size: 18px;
 }
 .footer-up .social_icons {
 	margin-bottom: 20px;
@@ -1640,14 +1642,19 @@ header.main-header nav .ownmenu li {
       FOOTER
 ========================================================*/
 footer {
-	background: #2e2e2e;
+	background: #3c3c3c;;
 	padding-top: 120px;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'century gothic', sans-serif;
 }
 footer img {
-	margin-bottom: 20px;
+	margin: 50px;
 }
+
+footer .logo {
+	margin: 50px;
+}
+
 footer p {
 	color: #cecece;
 	font-size: 11px;
@@ -1666,7 +1673,7 @@ footer .social_icons li a {
 .footer-rights {
 	margin-top: 50px;
 	padding: 15px 0;
-	background: #252525;
+	background: #3c3c3c;
 }
 /*=======================================================
       PAGINATION
