@@ -2,7 +2,7 @@
  * ==========================================================================
  * ==========================================================================
  *
- * Kinsey – AJAX Agency HTML5 Template
+ * StoryX
  *
  * [Table of Contents]
  *
@@ -7094,6 +7094,7 @@ small, .small, .comment-edit-link, .comment-reply-link, .comment-metadata, .slid
 .arts-split-text:not(.js-arts-split-text) .has-drop-cap > div:first-child {
   display: inline-block !important;
   float: left;
+  
 }
 .arts-split-text:not(.js-arts-split-text) .has-drop-cap > div:first-child:after {
   content: "";
@@ -10392,3 +10393,12 @@ select {
 .widget_text .textwidget > *:last-child {
   margin-bottom: 0;
 }
+
+
+/*!========================================================================
+ * 111. Bespoke
+ * ======================================================================!*/
+
+ .pl-20 {padding-left: 20px;}
+ .pb-100 {padding-bottom: 100px;}
+ .pt-100 {padding-top: 100px;}
