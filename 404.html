@@ -472,101 +472,232 @@
         </main>
         <!-- - PAGE CONTENT -->
         <!-- PAGE FOOTER -->
-        <!-- - PAGE FOOTER -->
-      </div>
-      <!-- - PAGE MAIN CONTAINER -->
-    </div>
-    <canvas id="js-webgl"></canvas>
-    <!-- Cursor Follower -->
-    <div class="arts-cursor" id="js-arts-cursor">
-      <div class="arts-cursor__wrapper">
-        <!-- circles-->
-        <div class="arts-cursor__follower js-arts-cursor__follower">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-            <circle class="arts-cursor__stroke-inner js-arts-cursor__stroke-inner" cx="25" cy="25" r="24" style="opacity: 0.6;"></circle>
-            <circle class="arts-cursor__stroke-outer js-arts-cursor__stroke-outer" cx="25" cy="25" r="24" style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
-          </svg>
-        </div>
-        <!-- arrows-->
-        <div class="arts-cursor__arrows">
-          <div class="arts-cursor__arrow arts-cursor__arrow_up material-icons keyboard_arrow_up js-arts-cursor__arrow-up"></div>
-          <div class="arts-cursor__arrow arts-cursor__arrow_right material-icons keyboard_arrow_right js-arts-cursor__arrow-right"></div>
-          <div class="arts-cursor__arrow arts-cursor__arrow_down material-icons keyboard_arrow_down js-arts-cursor__arrow-down"></div>
-          <div class="arts-cursor__arrow arts-cursor__arrow_left material-icons keyboard_arrow_left js-arts-cursor__arrow-left"></div>
-        </div>
-        <!-- label holder-->
-        <div class="arts-cursor__wrapper-label">
-          <div class="arts-cursor__label js-arts-cursor__label"></div>
-        </div>
-        <!-- icon holder-->
-        <div class="arts-cursor__wrapper-icon">
-          <div class="arts-cursor__icon js-arts-cursor__icon"></div>
-        </div>
-      </div>
-    </div>
-    <!-- - Cursor Follower -->
-    <!-- Mobile Loading Spinner -->
-    <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-      <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
-    </svg>
-    <!-- - Mobile Loading Spinner -->
-    <!-- Curtain AJAX Transition -->
-    <div class="transition-curtain" id="js-page-transition-curtain"></div>
-    <!-- - Curtain AJAX Transition -->
-    <!-- PhotoSwipe Lightbox Container -->
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-arts-theme-text="light">
-      <!-- background -->
-      <div class="pswp__bg"></div>
-      <!-- - background -->
-      <!-- slider wrapper -->
-      <div class="pswp__scroll-wrap">
-        <!-- slides holder (don't modify)-->
-        <div class="pswp__container">
-          <div class="pswp__item">
-            <div class="pswp__img pswp__img--placeholder"></div>
-          </div>
-          <div class="pswp__item"></div>
-          <div class="pswp__item"></div>
-        </div>
-        <!-- - slides holder (don't modify)-->
-        <!-- UI -->
-        <div class="pswp__ui pswp__ui--hidden">
-          <!-- top bar -->
-          <div class="pswp__top-bar">
-            <div class="pswp__counter"></div>
-            <button class="pswp__button pswp__button--close" title="Close (Esc)" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
-            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"></button>
-            <div class="pswp__preloader">
-              <div class="pswp__preloader__icn">
-                <div class="pswp__preloader__cut">
-                  <div class="pswp__preloader__donut"></div>
+        
+
+
+
+      <!-- ///////////////////////////////////////////// PAGE FOOTER ///////////////////////////////////////////// -->
+
+
+
+
+
+      <footer class="footer pt-medium bg-dark-1" id="page-footer" data-arts-theme-text="light"
+      data-arts-fixed-reveal="data-arts-fixed-reveal" data-arts-fixed-reveal-from="-20vh"
+      data-arts-fixed-reveal-from-opacity="0">
+      <div class="footer__inner">
+        <div class="container">
+          <!-- widget area #1 [wide] -->
+          <div class="row pb-md-3">
+            <div class="col">
+              <section class="widget widget_text">
+                <div class="textwidget">
+                  <h3>We love taking on ambitious projects and always look for ways to use technology to create
+                    impactful solutions. We code all of our websites using a variety of languages enabling endless
+                    creativity.</em><br><br><a class="underline-hover-self"
+                      href="mailto:hello@story-x.co.uk">hello@story-x.co.uk</a></h3>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
-          <!-- - top bar -->
-          <!-- left arrow -->
-          <div class="pswp__button pswp__button--arrow--left material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
-          <!-- - left arrow -->
-          <!-- right arrow -->
-          <div class="pswp__button pswp__button--arrow--right material-icons" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
-          <!-- - right arrow -->
-          <!-- slide caption holder (don't modify) -->
-          <div class="pswp__caption">
-            <div class="pswp__caption__center text-center"></div>
+          <!-- - widget area #1 [wide] -->
+          <!-- widget area #2 [4 columns] -->
+          <!-- <div class="row justify-content-between position-relative pt-md-5 pt-4 pb-md-3">
+            <div class="footer__divider"></div>
+            <div class="col-lg-3 col-sm-6">
+              <section class="widget widget_nav_menu">
+                <h2 class="widgettitle">Quick Links</h2>
+                <div>
+                  <ul class="menu">
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="027-portfolio-grid-3-columns.html">Portfolio</a></li>
+                    <li class="menu-item"><a href="034-services.html">Services</a></li>
+                    <li class="menu-item"><a href="035-about.html">About</a></li>
+                    <li class="menu-item"><a href="037-blog-posts-list-backgrounds.html">Blog</a></li>
+                    <li class="menu-item"><a href="036-contacts.html">Contacts</a></li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <section class="widget widget_nav_menu">
+                <h2 class="widgettitle">Latest Works</h2>
+                <div>
+                  <ul class="menu">
+                    <li class="menu-item"><a href="013-portfolio-details-masthead-boxed-horizontal.html">Errica
+                        Fashion Store</a></li>
+                    <li class="menu-item"><a href="014-portfolio-details-masthead-boxed-horizontal.html">Zero Audio
+                        Speaker</a></li>
+                    <li class="menu-item"><a href="015-portfolio-details-masthead-boxed-vertical.html">Contemporary
+                        Workplace</a></li>
+                    <li class="menu-item"><a href="016-portfolio-details-masthead-boxed-vertical.html">Cassio
+                        Apartments</a></li>
+                    <li class="menu-item"><a href="017-portfolio-details-masthead-fullwidth-horizontal.html">Winter
+                        Villa</a></li>
+                    <li class="menu-item"><a href="018-portfolio-details-masthead-boxed-vertical.html">Portable
+                        Stereo</a></li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <section class="widget widget_text">
+                <h2 class="widgettitle">Office Location</h2>
+                <div class="textwidget">
+                  <p>StoryX<br>Castle Street<br>Bodmin<br>Cornwall<br>PL31 2DX</p>
+                </div>
+              </section>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <section class="widget widget_text">
+                <h2 class="widgettitle">Contact</h2>
+                <div class="textwidget">
+                  <p><a href="#">hello@story-x.co.uk</a><br>+44 777 887 1249<br>+44 749 615 6914</p>
+                </div>
+              </section>
+            </div>
+          </div> -->
+          <!-- - widget area #2 [4 columns] -->
+          <!-- widget area #3 [2 columns] -->
+          <div class="row justify-content-between align-items-center position-relative pt-4">
+            <div class="footer__divider"></div>
+            <div class="col-lg-4 order-lg-2 text-lg-end text-center">
+              <section class="widget widget_kinsey_social">
+                <ul class="social">
+                  <li class="social__item"><a class="social__icon" target="_blank" href="https://www.facebook.com/StoryXWeb">Fb.</a></li>
+                  <li class="social__item"><a class="social__icon" target="_blank" href="https://www.instagram.com/the_storyx/">In.</a></li>
+                  <li class="social__item"><a class="social__icon" target="_blank" href="https://www.linkedin.com/company/the-storyx/">Li.</a></li>
+                  <li class="social__item"><a class="social__icon" target="_blank" href="https://twitter.com/StoryX_uk">X.</a></li>
+
+                </ul>
+              </section>
+            </div>
+            <div class="col-lg-8 text-lg-start text-center">
+              <section class="widget widget_text">
+                <div class="textwidget">
+                  <p><small>© 2023 StoryX | All Rights Reserved </small></p>
+                </div>
+              </section>
+            </div>
           </div>
-          <!-- - slide caption holder (don't modify) -->
+          <!-- - widget area #3 [2 columns] -->
         </div>
-        <!-- - UI -->
       </div>
-      <!-- slider wrapper -->
+    </footer>
+    <!-- - PAGE FOOTER -->
+  </div>
+  <!-- - PAGE MAIN CONTAINER -->
+</div>
+<canvas id="js-webgl"></canvas>
+<!-- Cursor Follower -->
+<div class="arts-cursor" id="js-arts-cursor">
+  <div class="arts-cursor__wrapper">
+    <!-- circles-->
+    <div class="arts-cursor__follower js-arts-cursor__follower">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle class="arts-cursor__stroke-inner js-arts-cursor__stroke-inner" cx="25" cy="25" r="24"
+          style="opacity: 0.6;"></circle>
+        <circle class="arts-cursor__stroke-outer js-arts-cursor__stroke-outer" cx="25" cy="25" r="24"
+          style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
+      </svg>
     </div>
-    <!-- - PhotoSwipe Lightbox Container -->
-    <!-- VENDOR SCRIPTS -->
-    <script src="js/vendor.js"></script>
-    <!-- - VENDOR SCRIPTS -->
-    <!-- COMPONENTS -->
-    <script src="js/components.js"></script>
-    <!-- - COMPONENTS -->
-  </body>
+    <!-- arrows-->
+    <div class="arts-cursor__arrows">
+      <div class="arts-cursor__arrow arts-cursor__arrow_up material-icons keyboard_arrow_up js-arts-cursor__arrow-up">
+      </div>
+      <div
+        class="arts-cursor__arrow arts-cursor__arrow_right material-icons keyboard_arrow_right js-arts-cursor__arrow-right">
+      </div>
+      <div
+        class="arts-cursor__arrow arts-cursor__arrow_down material-icons keyboard_arrow_down js-arts-cursor__arrow-down">
+      </div>
+      <div
+        class="arts-cursor__arrow arts-cursor__arrow_left material-icons keyboard_arrow_left js-arts-cursor__arrow-left">
+      </div>
+    </div>
+    <!-- label holder-->
+    <div class="arts-cursor__wrapper-label">
+      <div class="arts-cursor__label js-arts-cursor__label"></div>
+    </div>
+    <!-- icon holder-->
+    <div class="arts-cursor__wrapper-icon">
+      <div class="arts-cursor__icon js-arts-cursor__icon"></div>
+    </div>
+  </div>
+</div>
+<!-- - Cursor Follower -->
+<!-- Mobile Loading Spinner -->
+<svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66"
+  xmlns="http://www.w3.org/2000/svg">
+  <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+</svg>
+<!-- - Mobile Loading Spinner -->
+<!-- Curtain AJAX Transition -->
+<div class="transition-curtain" id="js-page-transition-curtain"></div>
+<!-- - Curtain AJAX Transition -->
+<!-- PhotoSwipe Lightbox Container -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-arts-theme-text="light">
+  <!-- background -->
+  <div class="pswp__bg"></div>
+  <!-- - background -->
+  <!-- slider wrapper -->
+  <div class="pswp__scroll-wrap">
+    <!-- slides holder (don't modify)-->
+    <div class="pswp__container">
+      <div class="pswp__item">
+        <div class="pswp__img pswp__img--placeholder"></div>
+      </div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <!-- - slides holder (don't modify)-->
+    <!-- UI -->
+    <div class="pswp__ui pswp__ui--hidden">
+      <!-- top bar -->
+      <div class="pswp__top-bar">
+        <div class="pswp__counter"></div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)" data-arts-cursor="data-arts-cursor"
+          data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+          data-arts-cursor-hide-native="true"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen" data-arts-cursor="data-arts-cursor"
+          data-arts-cursor-scale="1.4" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+          data-arts-cursor-hide-native="true"></button>
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - top bar -->
+      <!-- left arrow -->
+      <div class="pswp__button pswp__button--arrow--left material-icons" data-arts-cursor="data-arts-cursor"
+        data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+        data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+      <!-- - left arrow -->
+      <!-- right arrow -->
+      <div class="pswp__button pswp__button--arrow--right material-icons" data-arts-cursor="data-arts-cursor"
+        data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+        data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+      <!-- - right arrow -->
+      <!-- slide caption holder (don't modify) -->
+      <div class="pswp__caption">
+        <div class="pswp__caption__center text-center"></div>
+      </div>
+      <!-- - slide caption holder (don't modify) -->
+    </div>
+    <!-- - UI -->
+  </div>
+  <!-- slider wrapper -->
+</div>
+<!-- - PhotoSwipe Lightbox Container -->
+<!-- VENDOR SCRIPTS -->
+<script src="js/vendor.js"></script>
+<!-- - VENDOR SCRIPTS -->
+<!-- COMPONENTS -->
+<script src="js/components.js"></script>
+<!-- - COMPONENTS -->
+</body>
+
 </html>
