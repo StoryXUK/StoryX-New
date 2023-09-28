@@ -141,7 +141,7 @@ if (typeof window.kinsey === 'undefined') {
 				timeScale: { // slow down or speed up the animations
 					onScrollReveal: 1.0,
 					overlayMenuOpen: 1.0,
-					overlayMenuClose: 1.5,
+					overlayMenuClose: 1.3,
 					preloader: 1.0,
 					ajaxFlyingImageTransition: 1.0,
 					ajaxCurtainTransition: 1.0
