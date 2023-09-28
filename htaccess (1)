@@ -1,0 +1,18 @@
+# Enable the rewrite engine
+RewriteEngine On
+
+# Set the base directory
+RewriteBase /
+
+# Remove www from the domain (optional)
+RewriteCond %{HTTP_HOST} ^www\.story-x\.co\.uk [NC]
+RewriteRule ^(.*)$ http://story-x.co.uk/$1 [L,R=301]
+
+# Redirect to HTTPS (optional)
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Serve index.html for requests to non-existent files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
