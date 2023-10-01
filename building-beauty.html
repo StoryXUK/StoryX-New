@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title>StoryX | Web Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="description" content="Beauty is in the eye of the beholder, but when it comes to websites, there are certain design principles that universally appeal to users."/>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,300;1,400;1,500&amp;display=swap"/>
+    <!-- Template Vendor's Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/vendor.css"/>
+    <!-- Template Main Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <!-- Favicons & App Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/content/apple-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="60x60" href="img/content/apple-icon-60x60.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="img/content/apple-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/content/apple-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="img/content/apple-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="img/content/apple-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="img/content/apple-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="img/content/apple-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/content/apple-icon-180x180.png"/>
+    <link rel="icon" type="image/png" sizes="192x192" href="img/content/android-icon-192x192.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/content/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="96x96" href="img/content/favicon-96x96.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/content/favicon-16x16.png"/>
+    <link rel="manifest" href="img/content/manifest.json"/>
+    <meta name="msapplication-TileColor" content="#ffffff"/>
+    <meta name="msapplication-TileImage" content="img/content/ms-icon-144x144.png"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="icon" type="image/x-icon" href="img/content/favicon.ico"/>
+  </head>
+  <body>
+    <div data-barba="wrapper">
+      <!-- PAGE PRELOADER -->
+      <div class="preloader preloader_header-menu-hidden mask-reveal" id="js-preloader" data-arts-theme-text="light" data-arts-preloader-logo="secondary">
+        <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
+          <div class="mask-reveal__layer mask-reveal__layer-2">
+            <div class="preloader__wrapper">
+              <div class="preloader__counter preloader__counter_started me-auto mt-auto underline js-preloader__counter">00%</div>
+              <div class="preloader__content ms-auto mt-auto js-preloader__content">
+                <div class="h6">Loading</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - PAGE PRELOADER -->
+      <!-- PAGE HEADER -->
+      <header class="header header_fixed container-fluid js-header-sticky" id="page-header" data-arts-theme-text="light" data-arts-header-sticky-theme="bg-dark-3" data-arts-header-logo="secondary" data-arts-header-sticky-logo="secondary" data-arts-header-sticky-theme-text="light" data-arts-header-overlay-theme-text="light">
+        <!-- top bar -->
+        <div class="header__container header__controls">
+          <div class="row justify-content-between align-items-center">
+            <!-- logo -->
+            <div class="col-auto header__col header__col-left"><a class="logo" href="index.html">
+                <div class="logo__wrapper-img">
+                  <!-- primary logo version (for light backgrounds)--><img class="logo__img-primary" src="img/logo-dark.webp" alt="StoryX logo" width="100" height="50"/>
+                  <!-- secondary logo version (for dark backgrounds)--><img class="logo__img-secondary" src="img/logo-light.webp" alt="StoryX logo" width="100" height="50"/>
+                </div></a>
+            </div>
+            <!-- - logo -->
+            <!-- burger icon -->
+            <div class="col-auto header__col d-flex align-items-center">
+              <div class="ms-auto header__burger" id="js-burger" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true">
+                <div class="header__burger-line"></div>
+                <div class="header__burger-line"></div>
+                <!-- burger labels -->
+                <div class="header__label header__burger-label">
+                  <div class="header__label-burger header__label-burger_inner header__label-burger_closed-open">Menu</div>
+                  <div class="header__label-burger header__label-burger_inner header__label-burger_closed-hover">Open</div>
+                  <div class="header__label-burger header__label-burger_inner header__label-burger_opened-open">Close</div>
+                  <div class="header__label-burger header__label-burger_inner header__label-burger_opened-hover">Close</div>
+                </div>
+                <!-- - burger labels -->
+              </div>
+            </div>
+            <!-- - burger icon -->
+            <!-- "back" button for submenu nav -->
+            <div class="header__overlay-menu-back" id="js-submenu-back" data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic" data-arts-cursor-hide-native="true"><i class="material-icons">arrow_back</i>
+              <div class="header__label header__label_status">
+                <div class="js-header-label-submenu"></div>
+              </div>
+              <div class="header__label header__label_opened-back">Back</div>
+            </div>
+            <!-- - "back" button for submenu nav -->
+            <!-- slider label -->
+            <div class="header__overlay-menu-info header__label header__label_side">Selected Projects</div>
+            <!-- - slider label -->
+          </div>
+        </div>
+        <!-- - top bar -->
+      <!-- fullscreen overlay container -->
+      <div class="header__wrapper-overlay-menu" data-arts-theme-text="light">
+        <div class="mask-reveal w-100 h-100">
+          <div class="mask-reveal__layer mask-reveal__layer-1 bg-dark-1">
+            <div class="mask-reveal__layer mask-reveal__layer-2">
+              <div class="row align-items-center h-100">
+                <!-- menu & bottom widgets -->
+                <div
+                  class="header__menu-column col-lg-7 order-lg-2 h-100 d-flex flex-column position-relative bg-dark-2">
+                  <!-- top gradient-->
+                  <div class="header__menu-gradient header__menu-gradient_top"></div>
+                  <!-- - top gradient-->
+                  <!-- virtual scrolling container -->
+                  <div class="header__scroll-container js-header-smooth-scroll-container overflow pointer-events-auto">
+                    <div class="header__wrapper-menu">
+                      <ul class="menu-overlay js-menu-overlay">
+                        <li class="current-menu-ancestor"><a href="index.html" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span
+                                class="menu-overlay__subheading small mb-1">01&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
+                                Our Homepage</span>
+                              <div class="menu-overlay__heading h2">Home</div>
+                            </div>
+                          </a>
+
+                        </li>
+                        <li><a href="about.html" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span
+                                class="menu-overlay__subheading small mb-1">02&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;Our
+                                Mission, Vision & Values</span>
+                              <div class="menu-overlay__heading h2">About</div>
+                            </div>
+                          </a>
+
+                        </li>
+
+                        <li><a href="projects.html" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span
+                                class="menu-overlay__subheading small mb-1">03&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
+                                Our Work</span>
+                              <div class="menu-overlay__heading h2">Projects</div>
+                            </div>
+                          </a>
+
+                        <li><a href="services.html" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span
+                                class="menu-overlay__subheading small mb-1">04&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
+                                The Stuff We Do</span>
+                              <div class="menu-overlay__heading h2">Services</div>
+                            </div>
+                          </a>
+
+                        </li>
+                        <li><a href="contacts.html" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span
+                                class="menu-overlay__subheading small mb-1">05&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
+                                Get In Touch</span>
+                              <div class="menu-overlay__heading h2">Contact</div>
+                            </div>
+                          </a>
+
+                        </li>
+                        <li><a href="insights.html" data-pjax-link="overlayMenu">
+                            <div class="menu-overlay__item-wrapper arts-split-text js-arts-split-text"
+                              data-arts-split-text="lines,words" data-arts-split-text-set="lines"
+                              data-arts-split-text-overflow-wrap="lines"><span
+                                class="menu-overlay__subheading small mb-1">06&nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
+                                Our Stories</span>
+                              <div class="menu-overlay__heading h2">Insights</div>
+                            </div>
+                          </a>
+
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- - virtual scrolling container -->
+                  <!-- bottom gradient-->
+                  <div class="header__menu-gradient header__menu-gradient_bottom"></div>
+                  <!-- - bottom gradient-->
+                </div>
+                <!-- - menu & bottom widgets -->
+                <!-- featured projects slider -->
+                <div
+                  class="header__slider-column col-lg-5 order-lg-1 h-100 d-none d-lg-flex flex-column position-relative bg-dark-1">
+                  <div class="header__wrapper-slider">
+                    <div class="header__label d-lg-none mb-4">Selected Projects</div>
+                    <div class="slider-menu swiper-container js-slider-menu" data-speed="1200"
+                      data-centered-slides="true" data-drag-mouse="true" data-drag-cursor="true" data-drag-label="Drag"
+                      data-drag-hide-cursor="true" data-drag-class="slider-projects-fullscreen__images_scale-up"
+                      data-mousewheel-enabled="true" data-keyboard-enabled="true">
+                      <div class="swiper-wrapper">
+                        <!-- item -->
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image"
+                              href="change-rebellion.html" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                              data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img
+                                    class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/assets/projects/change-rebellion/change-rebellion.webp" width="1920"
+                                    height="1280" alt="screenshot of change rebellion website home page" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block"
+                                href="change-rebellion.html" data-arts-hover="trigger" data-arts-cursor="true"
+                                data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                                data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Change Rebellion
+                                </h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li>Website
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                  <li>September 2023</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- item -->
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image"
+                              href="doing-our-bit.html" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                              data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img
+                                    class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/assets/projects/dob/doing-our-bit.webp" width="1920" height="1280"
+                                    alt="screenshot of doing our bit website home page" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block"
+                                href="doing-our-bit.html" data-arts-hover="trigger" data-arts-cursor="true"
+                                data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                                data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Doing Our Bit</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li>Website
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                  <li>2022</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- item -->
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image"
+                              href="middlemiss-art.html" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                              data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img
+                                    class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/assets/projects/middlemiss-art/middlemiss-art.webp" width="1920"
+                                    height="1280" alt="screenshot of middlemiss art website home page" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block"
+                                href="middlemiss-art.html" data-arts-hover="trigger" data-arts-cursor="true"
+                                data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                                data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Middlemiss Art</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li>Website
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                  <li>2023</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- item -->
+
+                        <!-- item -->
+                        <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image"
+                              href="mini-ballers.html" data-arts-hover="trigger" data-arts-cursor="true"
+                              data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                              data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                              data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img
+                                    class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/assets/projects/mini-ballers/mini-ballers.webp" width="1920"
+                                    height="1280" alt="screenshot of mini ballers website home page" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block"
+                                href="mini-ballers.html" data-arts-hover="trigger" data-arts-cursor="true"
+                                data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                                data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Mini Ballers
+                                </h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li>Website
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                  <li>2023</li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- item -->
+                        <!-- <div class="swiper-slide slider-menu__slide" data-arts-hover-class="hover-zoom-underline">
+                          <div data-swiper-parallax-opacity="0.3"><a class="slider-menu__wrapper-image"
+                              href="023-portfolio-details-masthead-fullwidth-horizontal.html" data-arts-hover="trigger"
+                              data-arts-cursor="true" data-arts-cursor-hide-native="true"
+                              data-arts-cursor-label="View Project" data-arts-cursor-scale="2.4"
+                              data-arts-cursor-color="#fff" data-arts-cursor-background-color="#ed4830">
+                              <div class="overflow" data-swiper-parallax-y="-25%">
+                                <div class="w-100 h-100" data-swiper-parallax="true" data-swiper-parallax-y="25%"><img
+                                    class="swiper-lazy of-cover hover-zoom__zoom" src="#"
+                                    data-src="img/assets/projects/cbc/butterfly.webp" width="1920" height="1280"
+                                    alt="" />
+                                </div>
+                              </div>
+                            </a>
+                            <div class="slider-menu__header" data-swiper-parallax-y="-50%"><a class="d-inline-block"
+                                href="cbc.html" data-arts-hover="trigger" data-arts-cursor="true"
+                                data-arts-cursor-hide-native="true" data-arts-cursor-label="View Project"
+                                data-arts-cursor-scale="2.4" data-arts-cursor-color="#fff"
+                                data-arts-cursor-background-color="#ed4830">
+                                <h3 class="h3 mt-0 mb-2 slider__heading underline-hover__target">Cornwall Butterfly
+                                  Conservation</h3>
+                              </a>
+                              <div class="w-100"></div>
+                              <div class="d-inline-block slider__subheading">
+                                <ul class="post-meta post-meta_mini">
+                                  <li><a href="#">Website</a>
+                                    <div class="post-meta__divider"></div>
+                                  </li>
+                                  <li><a href="#">2022</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+                      </div>
+                      <div class="is-dragging__blocker"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- - featured projects slider -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - fullscreen overlay container // - fullscreen overlay container 
+        -->
+      <!-- - fullscreen overlay container -->
+    </header>
+    <!-- - PAGE HEADER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ///////////////////////////////////////////// PAGE MAIN CONTAINER ///////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ///////////////////////////////////////////// PAGE MAIN CONTAINER ///////////////////////////////////////////// -->
+
+
+
+
+
+        <!-- PAGE MAIN CONTAINER -->
+        <div class="js-smooth-scroll" id="page-wrapper" data-barba="container">
+            <!-- PAGE CONTENT -->
+            <main class="page-wrapper__content">
+                <!-- section MASTHEAD -->
+                <section
+                    class="section section-masthead section-masthead_fixed section-fullheight text-center bg-dark-1"
+                    data-arts-scroll-fixed="true" data-arts-os-animation="true" data-arts-theme-text="light">
+                    <div
+                        class="section-masthead__inner section-fullheight__inner section-fullheight__inner_mobile container">
+
+                        <h1 class="xl section-masthead__heading d-inline-block my-0 arts-split-text js-arts-split-text js-transition-heading"
+                            data-arts-split-text="lines, chars" data-arts-split-text-set="chars"
+                            data-arts-split-text-overflow-wrap="lines">Building Beauty and Functionality</h1>
+                        <!-- scroll down [mobile only] -->
+                        <div class="section-masthead__wrapper-scroll-down d-sm-none">
+                            <div class="section-masthead__scroll-down material-icons" data-arts-scroll-down="true"
+                                data-arts-os-animation="true" data-arts-os-animation-name="animateJump">
+                                keyboard_arrow_down</div>
+                        </div>
+                        <!-- - scroll down [mobile only] -->
+                    </div>
+                    <div class="section section-image section-masthead__background section-masthead__background_fullscreen js-transition-img js-arts-parallax overflow mask-reveal"
+                        data-arts-parallax-factor-y="-0.15">
+                        <div class="mask-reveal__layer mask-reveal__layer-1">
+                            <div class="mask-reveal__layer mask-reveal__layer-2">
+                                <div class="js-arts-parallax__scrub js-transition-img__transformed-el h-100"><img
+                                        class="of-cover" src="img/assets/section/sectionBlog/beauty.webp" width="1920"
+                                        height="1280" alt="alt" /></div>
+                            </div>
+                        </div>
+                        <!-- overlay -->
+                        <div class="section-image__overlay section-masthead__overlay overlay overlay_dark-60"></div>
+                        <!-- - overlay -->
+                    </div>
+                </section>
+                <!-- - section MASTHEAD -->
+                <!-- section BLOG [single post] -->
+                <section class="section section-blog section-content pb-large offset_top"
+                    data-arts-os-animation-start="top-=100% bottom">
+                    <div data-arts-os-animation="true" data-arts-os-animation-name="animateJump">
+                        <div class="container bg-white-1 py-medium section-offset__content">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <article class="post">
+                                        <!-- post content -->
+                                        <div class="post__content clearfix">
+                                            
+
+
+                                            <h2>The Importance of Beautiful Websites</h2>
+                                            <p><strong>Aesthetic Appeal:</strong> Beauty is in the eye of the beholder,
+                                                but when it comes to websites, there are certain design principles that
+                                                universally appeal to users. A visually pleasing website is more likely
+                                                to engage visitors and encourage them to explore further.</p>
+                                            <p><strong>Brand Representation:</strong> Your website should reflect your
+                                                brand's identity and values. A beautiful website helps convey your
+                                                brand's personality and builds trust with your audience. It's an
+                                                essential tool for establishing a strong online presence.</p>
+                                            <p><strong>User Experience:</strong> The design of your website directly
+                                                impacts the user experience. A well-designed and beautiful website is
+                                                easier to navigate, which leads to increased user satisfaction and
+                                                higher chances of conversion.</p>
+
+                                            <h2>The Art of Building Beauty</h2>
+                                            <p><strong>Unique Visual Identity:</strong> A beautiful website starts with
+                                                a unique visual identity. This includes carefully chosen colour schemes,
+                                                typography, and graphics that align with your brand. Strive for a
+                                                consistent and cohesive design throughout your site.</p>
+                                            <p><strong>Engaging Content:</strong> Content is a vital component of
+                                                beauty. High-quality images, videos, and written content that resonate
+                                                with your audience enhance the overall aesthetic and provide value to
+                                                visitors.</p>
+                                            <p><strong>Intuitive Navigation:</strong> A beautiful website should be easy
+                                                to navigate. Intuitive menus and clear calls-to-action help users find
+                                                what they're looking for effortlessly.</p>
+                                            <p><strong>Responsiveness:</strong> Aesthetic beauty should not be limited
+                                                to desktop users. Ensure your website is responsive, adapting gracefully
+                                                to different screen sizes and devices.</p>
+
+                                            <h2>The Power of Uniqueness</h2>
+                                            <p><strong>Stand Out from the Crowd:</strong> A unique website stands out in
+                                                a sea of templates and generic designs. It captures attention, makes a
+                                                memorable impression, and differentiates your brand.</p>
+                                            <p><strong>Tailored to Your Audience:</strong> A cookie-cutter approach may
+                                                not address the specific needs and preferences of your audience. A
+                                                unique website allows you to tailor the user experience to your target
+                                                demographic.</p>
+                                            <p><strong>Flexibility and Creativity:</strong> A custom-built website
+                                                provides the flexibility to implement creative and innovative features
+                                                that reflect your brand's personality and values.</p>
+
+                                            <h2>Building Your Beautiful, Unique Website</h2>
+                                            <p><strong>Define Your Goals:</strong> Start by clearly defining the goals
+                                                and objectives of your website. What do you want to achieve? Who is your
+                                                target audience? Understanding these key aspects will guide your design
+                                                choices.</p>
+                                            <p><strong>Collaborate with Experts:</strong> Consider partnering with
+                                                experienced web designers and developers who can bring your vision to
+                                                life. Their expertise can ensure that your website is both beautiful and
+                                                functional.</p>
+                                            <p><strong>Test and Iterate:</strong> Once your website is live, gather
+                                                feedback and data from users. Continuously refine and improve your site
+                                                to ensure it remains beautiful, functional, and aligned with your goals.
+                                            </p>
+                                        </div>
+
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- - section BLOG [single post] -->
+            </main>
+            <!-- - PAGE CONTENT -->
+
+
+
+
+
+
+
+
+
+
+            <!-- ///////////////////////////////////////////// PAGE FOOTER ///////////////////////////////////////////// -->
+
+
+
+
+
+
+
+            <!-- ///////////////////////////////////////////// PAGE FOOTER ///////////////////////////////////////////// -->
+
+
+
+
+
+            <footer class="footer pt-medium bg-dark-1" id="page-footer" data-arts-theme-text="light"
+                data-arts-fixed-reveal="data-arts-fixed-reveal" data-arts-fixed-reveal-from="-20vh"
+                data-arts-fixed-reveal-from-opacity="0">
+                <div class="footer__inner">
+                    <div class="container">
+                        <!-- widget area #1 [wide] -->
+                        <div class="row pb-md-3">
+                            <div class="col">
+                                <section class="widget widget_text">
+                                    <div class="textwidget">
+                                        <h3>We love taking on ambitious projects and always look for ways to use
+                                            technology to create
+                                            impactful solutions. We code all of our websites using a variety of
+                                            languages enabling endless
+                                            creativity.</em><br><br><a class="underline-hover-self"
+                                                href="mailto:hello@story-x.co.uk">hello@story-x.co.uk</a></h3>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <!-- - widget area #1 [wide] -->
+                        <!-- widget area #2 [4 columns] -->
+                        <!-- <div class="row justify-content-between position-relative pt-md-5 pt-4 pb-md-3">
+              <div class="footer__divider"></div>
+              <div class="col-lg-3 col-sm-6">
+                <section class="widget widget_nav_menu">
+                  <h2 class="widgettitle">Quick Links</h2>
+                  <div>
+                    <ul class="menu">
+                      <li class="menu-item"><a href="index.html">Home</a></li>
+                      <li class="menu-item"><a href="027-portfolio-grid-3-columns.html">Portfolio</a></li>
+                      <li class="menu-item"><a href="034-services.html">Services</a></li>
+                      <li class="menu-item"><a href="035-about.html">About</a></li>
+                      <li class="menu-item"><a href="037-blog-posts-list-backgrounds.html">Blog</a></li>
+                      <li class="menu-item"><a href="036-contacts.html">Contacts</a></li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <section class="widget widget_nav_menu">
+                  <h2 class="widgettitle">Latest Works</h2>
+                  <div>
+                    <ul class="menu">
+                      <li class="menu-item"><a href="013-portfolio-details-masthead-boxed-horizontal.html">Errica
+                          Fashion Store</a></li>
+                      <li class="menu-item"><a href="014-portfolio-details-masthead-boxed-horizontal.html">Zero Audio
+                          Speaker</a></li>
+                      <li class="menu-item"><a href="015-portfolio-details-masthead-boxed-vertical.html">Contemporary
+                          Workplace</a></li>
+                      <li class="menu-item"><a href="016-portfolio-details-masthead-boxed-vertical.html">Cassio
+                          Apartments</a></li>
+                      <li class="menu-item"><a href="017-portfolio-details-masthead-fullwidth-horizontal.html">Winter
+                          Villa</a></li>
+                      <li class="menu-item"><a href="018-portfolio-details-masthead-boxed-vertical.html">Portable
+                          Stereo</a></li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <section class="widget widget_text">
+                  <h2 class="widgettitle">Office Location</h2>
+                  <div class="textwidget">
+                    <p>StoryX<br>Castle Street<br>Bodmin<br>Cornwall<br>PL31 2DX</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <section class="widget widget_text">
+                  <h2 class="widgettitle">Contact</h2>
+                  <div class="textwidget">
+                    <p><a href="#">hello@story-x.co.uk</a><br>+44 777 887 1249<br>+44 749 615 6914</p>
+                  </div>
+                </section>
+              </div>
+            </div> -->
+                        <!-- - widget area #2 [4 columns] -->
+                        <!-- widget area #3 [2 columns] -->
+                        <div class="row justify-content-between align-items-center position-relative pt-4">
+                            <div class="footer__divider"></div>
+                            <div class="col-lg-4 order-lg-2 text-lg-end text-center">
+                                <section class="widget widget_kinsey_social">
+                                    <ul class="social">
+                                        <li class="social__item"><a class="social__icon" target="_blank"
+                                                href="https://www.facebook.com/StoryXWeb">Fb.</a></li>
+                                        <li class="social__item"><a class="social__icon" target="_blank"
+                                                href="https://www.instagram.com/the_storyx/">In.</a></li>
+                                        <li class="social__item"><a class="social__icon" target="_blank"
+                                                href="https://www.linkedin.com/company/the-storyx/">Li.</a></li>
+                                        <li class="social__item"><a class="social__icon" target="_blank"
+                                                href="https://twitter.com/StoryX_uk">X.</a></li>
+
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col-lg-8 text-lg-start text-center">
+                                <section class="widget widget_text">
+                                    <div class="textwidget">
+                                        <p><small>© 2023 StoryX | All Rights Reserved </small></p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <!-- - widget area #3 [2 columns] -->
+                    </div>
+                </div>
+            </footer>
+            <!-- - PAGE FOOTER -->
+        </div>
+        <!-- - PAGE MAIN CONTAINER -->
+    </div>
+    <canvas id="js-webgl"></canvas>
+    <!-- Cursor Follower -->
+    <div class="arts-cursor" id="js-arts-cursor">
+        <div class="arts-cursor__wrapper">
+            <!-- circles-->
+            <div class="arts-cursor__follower js-arts-cursor__follower">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <circle class="arts-cursor__stroke-inner js-arts-cursor__stroke-inner" cx="25" cy="25" r="24"
+                        style="opacity: 0.6;"></circle>
+                    <circle class="arts-cursor__stroke-outer js-arts-cursor__stroke-outer" cx="25" cy="25" r="24"
+                        style="stroke-dashoffset: 252.327; stroke-dasharray: 0px, 999999px;"></circle>
+                </svg>
+            </div>
+            <!-- arrows-->
+            <div class="arts-cursor__arrows">
+                <div
+                    class="arts-cursor__arrow arts-cursor__arrow_up material-icons keyboard_arrow_up js-arts-cursor__arrow-up">
+                </div>
+                <div
+                    class="arts-cursor__arrow arts-cursor__arrow_right material-icons keyboard_arrow_right js-arts-cursor__arrow-right">
+                </div>
+                <div
+                    class="arts-cursor__arrow arts-cursor__arrow_down material-icons keyboard_arrow_down js-arts-cursor__arrow-down">
+                </div>
+                <div
+                    class="arts-cursor__arrow arts-cursor__arrow_left material-icons keyboard_arrow_left js-arts-cursor__arrow-left">
+                </div>
+            </div>
+            <!-- label holder-->
+            <div class="arts-cursor__wrapper-label">
+                <div class="arts-cursor__label js-arts-cursor__label"></div>
+            </div>
+            <!-- icon holder-->
+            <div class="arts-cursor__wrapper-icon">
+                <div class="arts-cursor__icon js-arts-cursor__icon"></div>
+            </div>
+        </div>
+    </div>
+    <!-- - Cursor Follower -->
+    <!-- Mobile Loading Spinner -->
+    <svg class="spinner d-lg-none" id="js-spinner" width="65px" height="65px" viewBox="0 0 66 66"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle class="spinner__path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30">
+        </circle>
+    </svg>
+    <!-- - Mobile Loading Spinner -->
+    <!-- Curtain AJAX Transition -->
+    <div class="transition-curtain" id="js-page-transition-curtain"></div>
+    <!-- - Curtain AJAX Transition -->
+    <!-- PhotoSwipe Lightbox Container -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" data-arts-theme-text="light">
+        <!-- background -->
+        <div class="pswp__bg"></div>
+        <!-- - background -->
+        <!-- slider wrapper -->
+        <div class="pswp__scroll-wrap">
+            <!-- slides holder (don't modify)-->
+            <div class="pswp__container">
+                <div class="pswp__item">
+                    <div class="pswp__img pswp__img--placeholder"></div>
+                </div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- - slides holder (don't modify)-->
+            <!-- UI -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <!-- top bar -->
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"
+                        data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4"
+                        data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                        data-arts-cursor-hide-native="true"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"
+                        data-arts-cursor="data-arts-cursor" data-arts-cursor-scale="1.4"
+                        data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                        data-arts-cursor-hide-native="true"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- - top bar -->
+                <!-- left arrow -->
+                <div class="pswp__button pswp__button--arrow--left material-icons" data-arts-cursor="data-arts-cursor"
+                    data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                    data-arts-cursor-hide-native="true">keyboard_arrow_left</div>
+                <!-- - left arrow -->
+                <!-- right arrow -->
+                <div class="pswp__button pswp__button--arrow--right material-icons" data-arts-cursor="data-arts-cursor"
+                    data-arts-cursor-scale="1.7" data-arts-cursor-magnetic="data-arts-cursor-magnetic"
+                    data-arts-cursor-hide-native="true">keyboard_arrow_right</div>
+                <!-- - right arrow -->
+                <!-- slide caption holder (don't modify) -->
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center text-center"></div>
+                </div>
+                <!-- - slide caption holder (don't modify) -->
+            </div>
+            <!-- - UI -->
+        </div>
+        <!-- slider wrapper -->
+    </div>
+    <!-- - PhotoSwipe Lightbox Container -->
+    <!-- VENDOR SCRIPTS -->
+    <script src="js/vendor.js"></script>
+    <!-- - VENDOR SCRIPTS -->
+    <!-- COMPONENTS -->
+    <script src="js/components.js"></script>
+    <!-- - COMPONENTS -->
+</body>
+
+</html>
