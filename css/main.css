@@ -1070,13 +1070,13 @@ a:hover {
  * 12. Cursor
  * ======================================================================!*/
 .arts-cursor {
-  color: #f27461;
+  color: #FCD466;
   display: none;
 }
 
 .arts-cursor__stroke-inner, .arts-cursor__stroke-outer {
   stroke-width: 2px;
-  stroke: #ed4830;
+  stroke: #FCD466;
 }
 
 .arts-cursor__label {
